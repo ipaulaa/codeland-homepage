@@ -1,0 +1,144 @@
+body {
+  font-family: "National Park", sans-serif;
+  text-align: center;
+}
+
+header {
+  width: 100%;
+  height: 345px;
+
+  background: url("../images/codeland.png") bottom center / cover;
+  color: #fff;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+h1 {
+  padding: 6px 14px;
+
+  background-color: #340850;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0 0 0 / 0.35);
+
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 2.7rem;
+}
+
+header p {
+  padding: 6px 14px;
+
+  background-color: #c52585;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0 0 0 / 0.35);
+
+  font-size: 1.17rem;
+  font-weight: 700;
+  line-height: 1.6rem;
+}
+
+main {
+  margin: 0 auto;
+  padding: 40px;
+
+  background-color: #ffdaf7;
+  color: #340850;
+}
+
+main h2 {
+  font-size: 1.625rem;
+  font-weight: 800;
+  line-height: 2.2rem;
+}
+
+.activities {
+  width: 720px;
+  margin: 30px auto 0;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.activity {
+  width: 200px;
+  padding: 20px;
+
+  border-top: 5px solid transparent;
+  cursor: pointer;
+}
+
+.activity:hover {
+  border-color: #c52585;
+  color: #c52585;;
+}
+
+.activity img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+h3 {
+  margin: 18px 0 16px;
+
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.3rem;
+}
+
+.info {
+  font-size: 0.75rem;
+  font-weight: 300;
+  line-height: 1rem;
+}
+
+.tour-guide-card {
+  width: 450px;
+  padding: 20px;
+  margin: 50px auto;
+  border-radius: 10px;
+
+  background-color: #340850;
+  color: #ffb8f0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  filter: drop-shadow(0px 6px 0px #ff7ce9);
+}
+
+.tour-guide {
+  width: 180px;
+  height: 250px;
+  border-radius: 10px;
+
+  object-fit: cover;
+}
+
+.tour-guide-card div {
+  width: 180px;
+}
+
+.tour-guide-card h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 2rem;
+}
+
+.intro {
+  margin: 16px 0 24px;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.2rem;
+}
+
+.role {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.3rem;
+}
