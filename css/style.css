@@ -1,6 +1,7 @@
 body {
-  font-family: "National Park", sans-serif;
+  font-family: "Victor Mono", sans-serif;
   text-align: center;
+  line-height: 1.5;
 }
 
 header {
@@ -9,6 +10,7 @@ header {
 
   background: url("../images/codeland.png") bottom center / cover;
   color: #fff;
+  font-weight: 700;
 
   display: flex;
   flex-direction: column;
@@ -25,8 +27,6 @@ h1 {
   box-shadow: 0 5px 15px rgba(0 0 0 / 0.35);
 
   font-size: 2rem;
-  font-weight: 800;
-  line-height: 2.7rem;
 }
 
 header p {
@@ -36,9 +36,8 @@ header p {
   border-radius: 10px;
   box-shadow: 0 5px 15px rgba(0 0 0 / 0.35);
 
-  font-size: 1.17rem;
-  font-weight: 700;
-  line-height: 1.6rem;
+  font-size: 1.2rem;
+  font-style: italic;
 }
 
 main {
@@ -49,8 +48,7 @@ main {
 
 main h2 {
   font-size: 1.625rem;
-  font-weight: 800;
-  line-height: 2.2rem;
+  font-weight: 700;
 }
 
 .activities {
@@ -66,10 +64,11 @@ main h2 {
 
 .activity {
   max-width: 200px;
-  padding: 20px;
+  padding: 20px 10px;
 
   border-top: 5px solid transparent;
   cursor: pointer;
+  transition: border 300ms, color 300ms;
 }
 
 .activity:hover {
@@ -81,6 +80,19 @@ main h2 {
   width: 100px;
   height: 100px;
   border-radius: 50%;
+}
+
+h3 {
+  margin: 18px 0 16px;
+
+  font-size: 1rem;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.info {
+  font-size: 0.65rem;
+  font-weight: 300;
 }
 
 .history {
@@ -102,32 +114,24 @@ main h2 {
 .history p {
   margin-bottom: 20px;
   text-align: justify;
-  font-size: 1rem;
-  line-height: 1.6rem;
-}
-
-h3 {
-  margin: 18px 0 16px;
-
-  font-size: 1rem;
-  font-weight: 700;
-  line-height: 1.3rem;
-}
-
-.info {
-  font-size: 0.75rem;
+  font-size: 0.8rem;
   font-weight: 300;
-  line-height: 1rem;
+  line-height: 1.6;
+}
+
+footer {
+  padding: 50px 0;
+  background-color: #ffdaf7;
 }
 
 .tour-guide-card {
   width: 450px;
   padding: 20px;
-  margin: 50px auto;
+  margin: 0 auto;
   border-radius: 10px;
 
   background-color: #340850;
-  color: #ffb8f0;
+  color: #ffdaf7;
 
   display: flex;
   justify-content: space-between;
@@ -151,18 +155,16 @@ h3 {
 .tour-guide-card h2 {
   font-size: 1.5rem;
   font-weight: 700;
-  line-height: 2rem;
 }
 
 .intro {
   margin: 16px 0 24px;
-  font-size: 0.875rem;
-  font-weight: 400;
-  line-height: 1.2rem;
+  font-size: 0.75rem;
+  font-style: italic;
+  font-weight: 300;
 }
 
 .role {
-  font-size: 1rem;
+  font-size: 0.75rem;
   font-weight: 700;
-  line-height: 1.3rem;
 }
