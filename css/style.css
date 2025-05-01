@@ -69,7 +69,9 @@ main h2 {
 
   border-top: 5px solid transparent;
   cursor: pointer;
-  transition: border 300ms, color 300ms;
+  transition:
+    border 300ms,
+    color 300ms;
 }
 
 .activity:hover {
